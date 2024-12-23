@@ -103,86 +103,86 @@ export default function FixedPlugin(props) {
               </div>
             </a>
           </li>
-          <li className="header-title">Images</li>
-          <li className={bgImage === imagine1 ? "active" : ""}>
-            <a
-              className="img-holder switch-trigger"
-              onClick={() => {
-                setBgImage(imagine1);
-                props.handleImageClick(imagine1);
-              }}
-            >
-              <img src={imagine1} alt="..." />
-            </a>
-          </li>
-          <li className={bgImage === imagine2 ? "active" : ""}>
-            <a
-              className="img-holder switch-trigger"
-              onClick={() => {
-                setBgImage(imagine2);
-                props.handleImageClick(imagine2);
-              }}
-            >
-              <img src={imagine2} alt="..." />
-            </a>
-          </li>
-          <li className={bgImage === imagine3 ? "active" : ""}>
-            <a
-              className="img-holder switch-trigger"
-              onClick={() => {
-                setBgImage(imagine3);
-                props.handleImageClick(imagine3);
-              }}
-            >
-              <img src={imagine3} alt="..." />
-            </a>
-          </li>
-          <li className={bgImage === imagine4 ? "active" : ""}>
-            <a
-              className="img-holder switch-trigger"
-              onClick={() => {
-                setBgImage(imagine4);
-                props.handleImageClick(imagine4);
-              }}
-            >
-              <img src={imagine4} alt="..." />
-            </a>
-          </li>
+          {/*<li className="header-title">Images</li>*/}
+          {/*<li className={bgImage === imagine1 ? "active" : ""}>*/}
+          {/*  <a*/}
+          {/*    className="img-holder switch-trigger"*/}
+          {/*    onClick={() => {*/}
+          {/*      setBgImage(imagine1);*/}
+          {/*      props.handleImageClick(imagine1);*/}
+          {/*    }}*/}
+          {/*  >*/}
+          {/*    <img src={imagine1} alt="..." />*/}
+          {/*  </a>*/}
+          {/*</li>*/}
+          {/*<li className={bgImage === imagine2 ? "active" : ""}>*/}
+          {/*  <a*/}
+          {/*    className="img-holder switch-trigger"*/}
+          {/*    onClick={() => {*/}
+          {/*      setBgImage(imagine2);*/}
+          {/*      props.handleImageClick(imagine2);*/}
+          {/*    }}*/}
+          {/*  >*/}
+          {/*    <img src={imagine2} alt="..." />*/}
+          {/*  </a>*/}
+          {/*</li>*/}
+          {/*<li className={bgImage === imagine3 ? "active" : ""}>*/}
+          {/*  <a*/}
+          {/*    className="img-holder switch-trigger"*/}
+          {/*    onClick={() => {*/}
+          {/*      setBgImage(imagine3);*/}
+          {/*      props.handleImageClick(imagine3);*/}
+          {/*    }}*/}
+          {/*  >*/}
+          {/*    <img src={imagine3} alt="..." />*/}
+          {/*  </a>*/}
+          {/*</li>*/}
+          {/*<li className={bgImage === imagine4 ? "active" : ""}>*/}
+          {/*  <a*/}
+          {/*    className="img-holder switch-trigger"*/}
+          {/*    onClick={() => {*/}
+          {/*      setBgImage(imagine4);*/}
+          {/*      props.handleImageClick(imagine4);*/}
+          {/*    }}*/}
+          {/*  >*/}
+          {/*    <img src={imagine4} alt="..." />*/}
+          {/*  </a>*/}
+          {/*</li>*/}
 
-          <li className="button-container">
-            <div className="button-container">
-              <Button
-                color="success"
-                href="https://www.creative-tim.com/product/nextjs-material-dashboard?ref=njsmd-fixed-plugin"
-                target="_blank"
-                fullWidth
-              >
-                Download free!
-              </Button>
-            </div>
-          </li>
-          <li className="button-container">
-            <div className="button-container">
-              <Button
-                color="warning"
-                href="https://www.creative-tim.com/product/nextjs-material-dashboard-pro?ref=njsmd-fixed-plugin"
-                target="_blank"
-                fullWidth
-              >
-                Get PRO version
-              </Button>
-            </div>
-          </li>
-          <li className="button-container">
-            <Button
-              color="info"
-              fullWidth
-              href="https://www.creative-tim.com/learning-lab/nextjs/overview/material-dashboard?ref=njsmd-fixed-plugin"
-              target="_blank"
-            >
-              Documentation
-            </Button>
-          </li>
+          {/*<li className="button-container">*/}
+          {/*  <div className="button-container">*/}
+          {/*    <Button*/}
+          {/*      color="success"*/}
+          {/*      href="#"*/}
+          {/*      target="_blank"*/}
+          {/*      fullWidth*/}
+          {/*    >*/}
+          {/*      Download free!*/}
+          {/*    </Button>*/}
+          {/*  </div>*/}
+          {/*</li>*/}
+          {/*<li className="button-container">*/}
+          {/*  <div className="button-container">*/}
+          {/*    <Button*/}
+          {/*      color="warning"*/}
+          {/*      href="#"*/}
+          {/*      target="_blank"*/}
+          {/*      fullWidth*/}
+          {/*    >*/}
+          {/*      Get PRO version*/}
+          {/*    </Button>*/}
+          {/*  </div>*/}
+          {/*</li>*/}
+          {/*<li className="button-container">*/}
+          {/*  <Button*/}
+          {/*    color="info"*/}
+          {/*    fullWidth*/}
+          {/*    href="https://www.creative-tim.com/learning-lab/nextjs/overview/material-dashboard?ref=njsmd-fixed-plugin"*/}
+          {/*    target="_blank"*/}
+          {/*  >*/}
+          {/*    Documentation*/}
+          {/*  </Button>*/}
+          {/*</li>*/}
           <li className="adjustments-line" />
         </ul>
       </div>

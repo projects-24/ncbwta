@@ -123,19 +123,19 @@ export default function AdminNavbarLinks() {
                       onClick={handleCloseNotification}
                       className={classes.dropdownItem}
                     >
-                      Mike John responded to your email
+                      New Registration Pending (Adongo Michael)
                     </MenuItem>
                     <MenuItem
                       onClick={handleCloseNotification}
                       className={classes.dropdownItem}
                     >
-                      You have 5 new tasks
+                      10 Traders have expired Registrations
                     </MenuItem>
                     <MenuItem
                       onClick={handleCloseNotification}
                       className={classes.dropdownItem}
                     >
-                      You{"'"}re now friend with Andrew
+                      Effua's Card could not be recognized at Akano Border
                     </MenuItem>
                     <MenuItem
                       onClick={handleCloseNotification}
