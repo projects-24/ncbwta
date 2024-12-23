@@ -43,7 +43,7 @@
     ]
   },
   "optionalDependencies": {
-    "node-sass": "4.14.1",
+    "sass": "^latest_version",
     "typescript": "4.1.3"
   }
 }
